@@ -1,36 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Government offices often suffer from low levels of productivity at the organizational, team and individual levels, but there are no online tools to check the efficiency of the departments, track progress of grievances raised. To address this management gap and improve productivity and employee engagement in government offices a suitable online tool/ module should be developed under the e-Office platform.
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This is our project in which we have a user(Citizen) login/sign up page, ad it also links to the Department admin login/signup page and also Employee login/signup page. The citizen page allows to choose department to see their efficiency data and also raise a grievance and check the previous grievances that were raised, are they still pending or closed or they are passed to admin the users can also reopen the grievance if they are not satisfied with the action. The normal users can also message higher management employee of each department either directly(showing their information) or anonymously, this will help the users to raise corruption details of the employees working on ground level. Then the users can see their profile, news and schemes launched by various departments in the settings option they can update the profile details like occupation, phone, address, city, state and also add some additional details such as age, annual income, gender, and employment status these additional details further help the admin of all departments to see the data of all users in a visual statistical format like pie chart and determine new schemes. The settings also has change password feature which is common to all people like admin, citizens or employees. Then we also have sign out button which redirects us to the login page. Then comes the admin pages, there are admin pages of each department and have the power to address the grievances with a note or reject it which were sent to the department. The admins can see the statistical data which was added by the citizens as additional details and based on the data they can create a new scheme. Then comes the employee pages which are accessed by the top designated employees of their departments. They have access to direct messages from the users which are sent directly or anonymously, these messages can be addressed or passed to admin, the status of the messages can be seen in the user's dashboard.
